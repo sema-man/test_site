@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт визитка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = "body_elements">
+        <div class="header">
+            <?php include "site_logo.php" ?>
+            <?php include "header_menu.php" ?>
+        </div>
+
+        <div class="bodyer">
+
+            <div class="welcome_part">
+                <h1> <?php echo $welcome_sentence ?> </h1>
+            </div>
+
+            <div class="body_part">
+
+                <div class="main_part">
+
+                    <div class="about_me">
+                        <div class="my_coffee_img">
+                            <?php
+                            print("<img id=\"img_by_itself\" src=\"img/my_real_img.jpg\" alt=\"Vasiliy_Bulkin_Real_Img\">")
+                            ?>
+                        </div>
+
+                        <div class="my_personal_info">
+                            <ul class="about_me_txt">
+                                <li>Привет, еще раз, меня зовут
+                                    <?php echo($second_name." ".$name) ?>.</li>
+                                <li>Мне
+                                    <?php print($age) ?> года.</li>
+                                <li>Мой родной город
+                                    <?php print($hometown) ?>.</li>
+                                <li>Здесь могло быть еще много данных обо мне, но я не знаю, что писать...</li>
+                                <li class="ps_txt">P.S. Да, да, это я на фото (;</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="another_info">
+                        <?php include "knowledge.php" ?>
+                        <?php echo($integer_value."<br>".$float_value."<br>".$string_value."<br>".$bool_value."<br>") ?>
+                        <br>
+                        <?php echo($answ) ?>
+                    </div>
+
+                </div>
+
+                <div class="ads_part">
+                    <?php include "advertisement_list.php" ?>
+                    <p id="ads_offer_result"><?php print($ads_offer_result) ?></p>
+                    <img id="ads_img" src="img/hungry-child.gif" alt="hungry me">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <?php include 'footer_menu.php' ?>
+        </div>
+    </div>
+</body>
+</html>

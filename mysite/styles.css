@@ -1,0 +1,135 @@
+html{
+    height: 950px;
+}
+
+body{
+    height: 100%;
+}
+
+.body_elements{
+    font-family: "Century Gothic", serif;
+    height: 100%;
+}
+
+.welcome_part{
+    text-align: center;
+    font-size: x-large;
+    background-color: white;
+    border: black thick solid;
+    border-bottom: none;
+}
+
+.main_part{
+    width: 200%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.about_me{
+    background-color: white;
+    border: black thick solid;
+}
+
+.my_coffee_img{
+    display: inline-block;
+    margin: 20px;
+}
+
+#img_by_itself{
+    width: 300px;
+}
+
+.my_personal_info{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.another_info{
+    background-color: white;
+    border: black thick solid;
+    border-top-style: none;
+    height: 100%;
+    padding: 20px;
+}
+.about_me_txt li{
+    list-style-type: none;
+}
+
+.ps_txt{
+
+}
+
+#another_info_txt{
+}
+
+.ads_part{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: black thick solid;
+    border-left: none;
+    width: 22%;
+}
+
+.body_part{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+}
+
+.bodyer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#site_logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navigation_table{
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation_table li{
+    display: inline;
+}
+
+.navigation_table a{
+    text-decoration: none;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border: black solid thin;
+}
+
+nav{
+    display: inline-table;
+    float: right;
+}
+
+.header{
+    padding: 20px;
+    background-color: white;
+}
+#ads_offer_result{
+    margin: 15px;
+}
+
+#ads_img{
+    height: 20%;
+    margin: 10px;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+}

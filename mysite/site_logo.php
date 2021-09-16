@@ -1,0 +1,1 @@
+<a href="#" target="_blank" title="На главную"><img id="site_logo" src="img/ring_logo.jpeg" alt="site logo"></a>
